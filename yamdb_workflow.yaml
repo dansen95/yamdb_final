@@ -52,6 +52,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_KEY }}
           script: |
             sudo docker pull dansen95/yamdb_final:v1.1
             sudo docker-compose stop

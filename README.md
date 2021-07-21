@@ -1,6 +1,6 @@
 # api_yamdb
 
-![example workflow](https://github.com/dansen95/yamdb_final/actions/workflows/main.yml/badge.svg)
+![yamdb](https://github.com/dansen95/yamdb_final/workflows/yamdb/badge.svg)
 
 Проект **YaMDb** собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 

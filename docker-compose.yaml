@@ -16,8 +16,8 @@ services:
     image: dansen95/yamdb_final
     restart: always
     volumes:
-      - static_value:/var/html/static/
-      - media_value:/var/html/media/
+      - static_value:/code/static/
+      - media_value:/code/media/
     expose:
       - 8000
     depends_on:
